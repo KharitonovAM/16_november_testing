@@ -26,4 +26,4 @@ def len_of_rezult():
 
 @pytest.fixture
 def wrong_type():
-    return str(100)
+    return 'tttt'
