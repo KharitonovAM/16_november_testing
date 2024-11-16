@@ -19,3 +19,7 @@ def wrong_tax():
 @pytest.fixture
 def good_price():
     return [[10, 20,30], 10, [11,22,33]]
+
+@pytest.fixture
+def len_of_rezult():
+    return 4
