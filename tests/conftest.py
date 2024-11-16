@@ -23,3 +23,7 @@ def good_price():
 @pytest.fixture
 def len_of_rezult():
     return 4
+
+@pytest.fixture
+def wrong_type():
+    return str(100)
